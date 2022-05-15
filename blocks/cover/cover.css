@@ -1,0 +1,50 @@
+.cover {
+    max-width: 1184px;
+    height: 720px;
+    margin: 92px auto auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.cover::before {
+    content: "";
+    background-image: url(../../images/__background.jpg);
+    background-size: cover;
+    opacity: 0.8;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.cover:hover::before {
+    content: "";
+    background-image: url(../../images/__background.jpg);
+    background-size: cover;
+    opacity: 0.2;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .cover {
+        max-width: 768px;
+        margin-top: 90px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover {
+        max-width: 320px;
+        margin: 66px auto 64px;
+        height: 200px;
+    }
+}

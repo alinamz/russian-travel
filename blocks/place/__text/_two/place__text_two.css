@@ -1,0 +1,10 @@
+.place__text_two {
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .place__text_two {
+        max-width: 288px;
+        padding-top: 25px;
+    }
+}
