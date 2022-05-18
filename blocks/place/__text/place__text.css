@@ -1,12 +1,21 @@
 .place__text {
     grid-area: text;
-    font-family: Inter;
     font-size: 18px;
     font-weight: 400;
-    line-height: 29px;
+    line-height: 29.34px;
     letter-spacing: 0em;
-    text-align: left;
     color: #FFFFFF;
+    margin: 0;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .place__text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: left;
+    }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -17,7 +26,11 @@
 
 @media screen and (max-width: 767px) {
     .place__text {
-           max-width: 288px;
-           margin: auto;
-       }
-}   
+        max-width: 288px;
+        margin: auto;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: left;
+
+    }
+}

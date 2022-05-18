@@ -14,12 +14,14 @@
     .photo-grid {
             width: calc(100% - 48px);
             margin: auto;
+            
         }
 }
 
 @media screen and (max-width: 767px) {
     .photo-grid {
-        max-width: 288px;
-        margin: 0 auto 14px;
+        max-width: calc(100% - 32px);
+        margin: auto;
+        
     }
 }

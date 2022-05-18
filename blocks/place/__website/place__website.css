@@ -2,7 +2,7 @@
     max-width: 456px;
     flex-direction: column;
     display: flex;
-    align-self: center;
+    align-self: flex-end;
     grid-area: url;
 }
 

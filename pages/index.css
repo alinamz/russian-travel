@@ -1,7 +1,7 @@
-@import url(../vendor/normalize.css);     
+@import url(../vendor/normalize.css);
+@import url(../font-face/font-face.css);     
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/header/__lang-link/_eu/header__lang-link_eu.css);
 @import url(../blocks/header/__lang-link/_ru/header__lang-link_ru.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/lead/lead.css);
@@ -33,18 +33,8 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__links/footer__links.css);
-@import url(../page/page.css);
-@font-face {
-    font-family: 'Inter';
-    font-style:  normal;
-    font-weight: 400;
-    src: url("../fonts/Inter Web/Inter-Regular.woff2") format("woff2"),
-         url("../fonts/Inter Web/Inter-Regular.woff") format("woff");
-}
-@font-face {
-    font-family: 'Inter';
-    font-style:  normal;
-    font-weight: 900;
-    src: url("../fonts/Inter Web/Inter-Black.woff2") format("woff2"),
-         url("../fonts/Inter Web/Inter-Black.woff") format("woff");
-} 
+@import url(../blocks/page/page.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/intro/__list/_text/intro__list_text.css);
+@import url(../blocks/cover/__link/cover__link.css);
+@import url(../blocks/place/__pharagraph/place__pharagraph.css);

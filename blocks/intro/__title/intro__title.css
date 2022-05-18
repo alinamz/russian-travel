@@ -1,28 +1,23 @@
 .intro__title {
-    font-family: Inter;
     font-size: 54px;
     font-weight: 900;
     line-height: 58px;
     letter-spacing: 0em;
     text-align: left;
     max-width: 690px;
-    margin: 114px 0 40px;
+    margin: 92px 0 40px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .intro__title {
-            margin-top: 110px;
+            margin-top: 88px;
         }
 }
 
 @media screen and (max-width: 767px) {
     .intro__title {
-            font-family: Inter;
             font-size: 32px;
-            font-weight: 900;
             line-height: 35px;
-            letter-spacing: 0em;
-            text-align: left;
-            margin-top: 65px;
+            margin-top: 64px;
         }
 }    

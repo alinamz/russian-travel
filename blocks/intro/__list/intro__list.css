@@ -1,14 +1,8 @@
 .intro__list {
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: bold;
-    line-height: 18px;
-    letter-spacing: 0em;
-    text-align: left;
-    list-style: none;
-    padding: 0;
     max-width: 690px;
     margin: 33px 0 0;
+    list-style: none;
+    padding: 0;
 }
 
 @media screen and (max-width: 767px) {

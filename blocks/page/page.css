@@ -1,14 +1,14 @@
 .page {
-    max-width: 1280px;
     min-width: 320px;
     margin: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
+    background-color: #2a2a2a;
+    font-family: 'Inter', "Arial", sans-serif;
 }
 
 body {
     margin: 0;
-    background-color: #2a2a2a;
-    font-family: 'Inter', "Arial", sans-serif;
+  
 }
